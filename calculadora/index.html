@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fundo">
+    <div class="card">
+        <form name="form">
+            <div>
+                <p class="visor1"  id="visor1" name="visor1"></p>
+               
+            </div>
+        </form>
+
+        <div>
+            <div>
+               
+                <td><button onclick="cleam()" class="numeros">C</button></td>
+            
+            </div>
+            <div>
+                <td><button onclick="insert(7)" class="numeros" value="7">7</button></td>
+                <td><button onclick="insert(8)" class="numeros">8</button></td>
+                <td><button onclick="insert(9)" class="numeros">9</button></td>
+                <td><button value="/" onclick="insert('/')" class="numeros">/</button></td>
+            </div>
+            <div>
+                <td><button onclick="insert(4)" class="numeros">4</button></td>
+                <td><button onclick="insert(5)" class="numeros">5</button></td>
+                <td><button onclick="insert(6)" class="numeros">6</button></td>
+                <td><button onclick="insert('*')" class="numeros" for="">*</button></td>
+            </div>
+            <div>
+                <td><button onclick="insert(1)" class="numeros">1</button></td>
+                <td><button onclick="insert(2)" class="numeros">2</button></td>
+                <td><button onclick="insert(3)" class="numeros">3</button></td>
+                <td><button onclick="insert('-')" class="numeros" for="">-</button></td>
+            </div>
+            <div>
+                <td> <button onclick="insert(0)" class="numeros">0</button></td>
+                <td> <button onclick="insert('.')" class="numeros">.</button></td>
+                <td> <button onclick="igual()" class="numeros">=</button></td>
+                <td> <button onclick="insert('+')" class="numeros" for="">+</button></td>
+            </div>
+
+        </div>
+    </div>
+        <script defer src="index.js"></script>
+
+</body>
+
+</html>
